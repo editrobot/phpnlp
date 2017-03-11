@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>玩扑克游戏实战稳赢的牌型概率计算分析_棋牌游戏_博之道</title>
+<meta name="description" content="玩扑克游戏都知道，这是一种规定牌数的扑克牌游戏，很讲究实战攻略，计算牌型的概率是一种比较常见的实战攻略，今天小编就介绍如何计算概率来增加自己赢牌机会，下面来详细了解一下。 一、概率计算 所谓扑克的概率，简单说，就是等来某种获胜牌型的可能性（" />
+<meta name="keywords" content="扑克,游戏,实战,稳赢,牌型,概率,计算,分析,扑克,游戏,知道,这是," />
+<link rel="stylesheet" type="text/css" href="/img/header.css">
+<link rel="stylesheet" type="text/css" href="/img/common.css">
+</head>
+
+<body>
+<!-- header -->
+<style>
+.mat{width:80px; height:74px; position:absolute; top:-20px; z-index:5;right:-4px}
+.logo{ position:relative}
+</style>
+<div id="header">
+	<div class="header">
+		<div class="logo"><a href="http://www.bozhidao.com/" title="博之道"><img src="/img/logo.gif" alt="博彩网站" /></a></div>
+		<div class="top"><a href="http://www.bozhidao.com/">网站首页 <small>Home</small></a> | <a href="#">收藏 <small>Collection</small></a> | <a href="#">设为首页 <small>Index</small></a></div>
+		<div class="nav">
+			<ul>
+				<li class="home"><a href="http://www.bozhidao.com/" target="_self">首页</a></li>
+				<li><a href="/news/" target="_self">资讯</a></li>
+				<li><a href="/method/" target="_self">技巧</a></li>
+				<li><a href="/translate/" target="_self">译文</a></li>
+				<li><a href="/study/" target="_self">心得</a></li>
+				<li><a href="http://bbs.bozhidao.com/" target="_self">论坛</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- /header -->
+<!-- subnav -->
+<div id="subnav">
+	<ul>
+		<li><a href="/news/"><strong>博彩资讯</strong></a></li>
+		<li><a href="/study/">博彩心得</a></li>
+		<li><a href="/company/">博彩公司</a></li>
+		<li><a href="/football/"><strong>足彩资讯</strong></a></li>
+		<li><a href="/baike/peilv/">盘口赔率</a></li>
+		<li><a href="/special/" class="strong">专题</a></li>
+	</ul>
+	<ul>
+		<li><a href="/translate/"><strong>博彩译文</strong></a></li>
+		<li><a href="/baike/laoqian/">赌术千术</a></li>
+		<li><a href="/baike/shuyu/">赌博术语</a></li>
+		<li><a href="/method/"><strong>博彩技巧</strong></a></li>
+		<li><a href="/baike/qipai/">棋牌游戏</a></li>
+		<li><a href="/baike/duboyouxi/">赌博游戏</a></li>
+	</ul>
+	<ul>
+		<li><a href="/culture/"><strong>博彩文化</strong></a></li>
+		<li><a href="/novel/">博彩小说</a></li>
+		<li><a href="/novel/01/">老千生涯</a></li>
+		<li><a href="/magazine/"><strong>博彩杂志</strong></a></li>
+		<li><a href="/novel/02/">赌场风云</a></li>
+		<li><a href="/novel/hehongshen/">何鸿燊传</a></li>
+	</ul>
+	<ul class="subnav-ul">
+		<li><a href="/baike/"><strong>博彩百科</strong></a></li>
+		<li><a href="/baike/jiedu/">如何戒赌</a></li>
+		<li><a href="/baike/duwang/">赌王介绍</a></li>
+		<li><a href="/why/"><strong>博彩问答</strong></a></li>
+		<li><a href="/baike/sicai/">私彩平台</a></li>
+		<li><a href="/baike/laohuji/">老虎机</a></li>
+	</ul>
+</div><!-- /subnav -->
+<div id="adtop" class="article-adtop"></div>
+<!-- main -->
+<div id="main">
+	<div class="m-left content">
+		<div class="a-position"><img src="/img/a-position.jpg" />您现在的位置: <a href='http://www.bozhidao.com/'>博彩网站</a>><a href='/baike/'>博彩百科</a>><a href='/baike/qipai/'>棋牌游戏</a>>文章内容</div>
+		<h1>玩扑克游戏实战稳赢的牌型概率计算分析</h1>
+		<div class="writer"><span>作者: haq</span> <span>来源: </span> <span>时间: 2012-12-11</span> <span>阅读: <span id="read" class="read"></span> 次</span> <span><a href="/baike/qipai/" target="_blank">棋牌游戏</a></span></div>
+		<div class="article">
+			<p>　　玩<a href="http://www.bozhidao.com/baike/wsop/">扑克</a>游戏都知道，这是一种规定牌数的扑克牌游戏，很讲究实战<a href="http://www.bozhidao.com/baike/duchanggonglue/">攻略</a>，计算牌型的概率是一种比较常见的实战攻略，今天小编就介绍如何计算概率来增加自己赢牌机会，下面来详细了解一下。</p>
+<p>　　一、概率计算</p>
+<p>　　所谓扑克的概率，简单说，就是等来某种获胜牌型的可能性（成牌概率），与底池提供筹码（底池概率）之间的比较，如果底池筹码足够多，高于成牌可能，就玩下去，反之就弃牌。</p>
+<p>　　二、底池概率（PotOdds）</p>
+<p>　　底池概率（PotOdds）是已有的底池筹码与你当前要下注额之间的比率。比如当前底池筹码共计$100，你需要下注$10，那么底池概率即为10：1。底池大小对于决定是否跟注很重要。</p>
+<p>　　三、成牌概率（Odds）</p>
+<p>　　这是凑成某种能够获胜牌型的可能性。比如，你的起手牌有两张红桃，翻牌圈又出现两张，那么，在转牌中等来第五张红桃的可能约为20%，即五分之一，每五次会成一次。但我们习惯用不能成牌的次数来表示，即称为成牌概率。在本例中，成牌概率大致为4：1，意思是，每五次中有4次不能成牌，有1次能成。</p>
+<p>　　四、成牌概率是如何计算的呢？</p>
+<p>　　很简单，在所有未翻开的牌中，不能帮助你的牌的数量，与能够帮助你的牌（即可等牌）的数量之间的比率，即算出成牌概率。例如，起手牌为6?7?，翻牌圈为A?T?5?，目前总共有47张牌未见，其中有9张红桃将助你成为同花牌，38张不能帮助你。那么，在转牌圈中成为同花牌的概率是4.2：1（38/9）；两头顺子（如89TJ）牌型有8张可等牌，成牌概率是4.9：1（39/8）；同理，单头顺子（如89JQ）牌型有4张可等牌，成牌概率为10.75：1（43/4）；在实战中，你显然不用每次重复这个计算过程。你所要做的，就是记住APA提供的成牌概率统计表，列明了可等牌数量所对应的成牌概率。</p>
+<p>　　五、可等牌（Out）</p>
+<p>　　这是计算成牌概率时的一个重要概念。指将在接下来的投注圈中出现，能使你凑成某种获胜牌型的来牌。比如，起手牌是A?T?，翻牌又出现2张红桃，仍需要1张来助你最终成牌。目前，还有9张红桃尚未出现，那么你就有9张可等牌。如果你预计再来一张A也能获胜，那你就有12张可等牌，即9张红桃和3张A。</p>
+<p>　　六、概率的实际应用</p>
+<p>　　现举一例，说明如何应用以上概率知识。你在$1/$2的有限注游戏，坐在按钮（小盲注紧右边）位置，手持K?T?，牌面来到转牌圈，为9?2?4?A?，你仅剩的一个对手下注$2后，底池共有$10。为了简化本例，我们假设对手现在凑成了一对A，但如果河牌（River）来另一张红桃，他将弃牌，那么，现在你会跟注，来等待河牌的那张红桃吗？</p>
+<p>　　我们知道，持有4张同花，成牌概率约为4比1；目前你需要投注$2，来搏取$10的底池，底池概率为5：1，高于成牌概率，所以应当玩下去，跟注是正确的。但如果底池仅有$7呢？底池概率则变成3.5：1,低于成牌概率，那么就应当弃牌。</p>
+<p>　　所谓通过计算概率来增加自己赢牌机会，这是有一定的道理的，也是有一定的依据，我们要相信，懂得了这些牌型的概率计算，可以很大程度上帮助我们出牌，调整策略，从而制胜。</p>
+		</div>
+		
+		<div class="share">
+			<!-- Baidu Button BEGIN -->
+			<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+			<span class="bds_more">分享到：</span>
+				<a class="bds_qzone">QQ空间</a>
+				<a class="bds_tsina">新浪微博</a>
+				<a class="bds_tqq">腾讯微博</a>
+				<a class="bds_renren">人人网</a>
+				<a class="shareCount"></a>
+			</div>
+		<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=393167" ></script>
+		<script type="text/javascript" id="bdshell_js"></script>
+		<script type="text/javascript">
+			document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?t=" + new Date().getHours();
+		</script>
+		<!-- Baidu Button END -->
+		</div>
+		<div class="article-next">
+			<ul>
+				<li>上一篇：<a href='/baike/qipai/10130.html'>扑克牌游戏技巧攻略之发牌技巧</a> </li>
+				<li>下一篇：<a href='/baike/qipai/10146.html'>斗地主游戏当农民战胜地主的技巧</a> </li>
+			</ul>
+		</div>
+		<div class="more">
+			<h2>相关推荐</h2>
+			<div class="more-pic">
+				<a target="_blank" href="/baike/peilv/6009.html"><img src="/uploads/allimg/120514/4-1205141620130-L.jpg" width="120" height="140" /></a>
+				<h3><a target="_blank" href="/baike/peilv/6009.html">足球返还率计算公式</a></h3>
+				<p>喜欢足彩的朋友可以能会有怎么样的疑问：足球返还率是怎么计算的？... <a target="_blank" href="/baike/peilv/6009.html">[详细阅读]</a></p>
+			</div>
+
+			<ul>
+				<li><a target="_blank" href="/baike/qipai/9748.html">新手玩斗地主游戏要首先认识斗地主游戏的起源</a></li>
+<li><a target="_blank" href="/baike/qipai/8567.html">现金大奖斗地主飞机怎么出最好</a></li>
+<li><a target="_blank" href="/baike/qipai/8625.html">网上真钱棋牌游戏赚钱万能攻略</a></li>
+<li><a target="_blank" href="/baike/qipai/7759.html">网上人民币斗地主技巧网上斗地主挣钱心法</a></li>
+<li><a target="_blank" href="/baike/qipai/8081.html">棋牌斗地主玩法成为最受欢迎的可以兑现的棋牌游戏</a></li>
+<li><a target="_blank" href="/baike/qipai/10261.html">斗地主游戏中农民玩法与地主玩法的区别</a></li>
+
+			</ul>
+		</div>
+		<div class="picture">
+			<h2>图文共赏</h2>
+			<ul>
+				<li><a href="/baike/21dian/3617.html"><img src="/uploads/allimg/120110/2-1201101200390-L.jpg" width="120" height="140" />二十一点入门</a></li>
+<li><a href="/baike/qipai/8418.html"><img src="/uploads/120904/4-120Z41F33OJ.jpg" width="120" height="140" />斗地主技术打法</a></li>
+<li><a href="/baike/qipai/8720.html"><img src="/uploads/allimg/120927/4-12092G131580-L.jpg" width="120" height="140" />网上斗地主赌钱游戏</a></li>
+<li><a href="/baike/majiang/7941.html"><img src="/uploads/allimg/120806/4-120P61522200-L.jpg" width="120" height="140" />长沙麻将技巧讲解</a></li>
+
+			</ul>
+		</div>
+		<div class="category-list">
+			<ul>
+				<li><a target="_blank" href="http://www.bozhidao.com/duqian/888zhenren/">888真人</a></li><li><a target="_blank" href="http://www.bozhidao.com/shishicai/3dtouzhu/">福彩3D在线投注站</a></li><li><a target="_blank" href="http://www.bozhidao.com/ouzhoubei/dianping/">2012欧洲杯专家评论</a></li><li><a target="_blank" href="http://www.bozhidao.com/culture/film/">赌王系列视剧</a></li><li><a target="_blank" href="http://www.bozhidao.com/duchang/">澳门在线赌钱网站</a></li><li><a target="_blank" href="http://www.bozhidao.com/shishicai/">时时乐</a></li><li><a target="_blank" href="http://www.bozhidao.com/baike/sicai/">私彩网站</a></li><li><a target="_blank" href="http://www.bozhidao.com/duqiu/">足球博彩网站</a></li><li><a target="_blank" href="http://www.bozhidao.com/translate/">博彩玩法译文</a></li><li><a target="_blank" href="http://www.bozhidao.com/baike/21dian/">真钱21点玩法介绍</a></li><li><a target="_blank" href="http://www.bozhidao.com/duqian/">网上赌钱游戏</a></li><li><a target="_blank" href="http://www.bozhidao.com/baike/peilv/">上下盘口输赢计算</a></li><li><a target="_blank" href="http://www.bozhidao.com/shishicai/shishile/">时时乐玩法规则</a></li><li><a target="_blank" href="http://www.bozhidao.com/magazine/">博彩杂志免费阅读</a></li><li><a target="_blank" href="http://www.bozhidao.com/baike/laoqian/">麻将千术揭秘</a></li><li><a target="_blank" href="http://www.bozhidao.com/shishicai/10fen/">广东快乐十分技巧</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="m-right">
+		<div class="sidebar-top">
+			<div class="nav-right"><h2><a target="_blank" href="/baike/qipai/">棋牌游戏</a></h2></div>
+			<div class="pic-ad" id="adright"></div>
+			<ul class="right-list">
+				<li class="line-none"><a target="_blank" href="/news/7370.html">台湾马祖开赌场 问诊经济胡乱用药</a></li>
+
+				<li><a target="_blank" href="/baike/qipai/10209.html">明牌斗地主实战打法之斗地主必胜技巧</a></li>
+<li><a target="_blank" href="/baike/qipai/5434.html">斗地主要牌技巧让你掌握斗地主的主动权</a></li>
+<li><a target="_blank" href="/baike/qipai/2655.html">怎样洗扑克牌</a></li>
+<li><a target="_blank" href="/baike/qipai/9842.html">斗地主怎么玩？介绍斗地主游戏玩法技巧</a></li>
+
+			</ul>
+		</div>
+		<div class="sidebar-middle">
+			<h2>随便看看</h2>
+			<div class="sidebar-middle-top">
+			<img src="/img/8070.jpg" />
+			<h3><a target="_blank" href="/baike/sicai/5239.html">简述重庆时时彩二星包点和包胆的特点</a></h3>
+			<p>一、组选包点 重庆时时彩二星号码两个数相加的和叫和数值也...<a target="_blank" class="item-color" href="/baike/sicai/5239.html">[详细]</a></p>
+
+			</div>
+			<ul class="right-list">
+				<li class="line-none"><a target="_blank" href="/news/8847.html">博彩行业将于近期整固 股价下行幅度不大</a></li>
+
+				<li><a target="_blank" href="/baike/baijiale/4903.html">博之道力荐的二十种百家乐缆法</a></li>
+<li><a target="_blank" href="/translate/851.html">世界扑克系列：决策的历史</a></li>
+<li><a target="_blank" href="/b/02g1.html"> 菲律宾太阳城官方网_菲律宾太阳城02g1_太阳城菲律宾</a></li>
+<li><a target="_blank" href="/translate/1023.html">互联网新趋势——网上赌场</a></li>
+<li><a target="_blank" href="/duqiu/jiqiao/7568.html">巴西甲山度士 VS 保地花高足球盘口分析</a></li>
+<li><a target="_blank" href="/baike/niuniu/1570.html">牛牛游戏网--牛牛游戏心得一</a></li>
+<li><a target="_blank" href="/baike/baijiale/4034.html">百家乐现金棋牌游戏的赢钱秘笈：二赢思维与二赢战法</a></li>
+
+			</ul>
+		</div>		
+		<div class="sidebar-order">
+			<div class="nav-right"><h2>30天阅读排行</h2></div>
+			<ul>
+				<li><a target="_blank" href="/baike/qipai/10394.html">扑克牌玩法大全之八种扑克牌基本手法</a></li>
+<li><a target="_blank" href="/baike/qipai/10003.html">斗地主技巧大全详解重在斗地主技术打法</a></li>
+<li><a target="_blank" href="/baike/qipai/10120.html">玩斗地主应注意的三种错误玩法</a></li>
+<li><a target="_blank" href="/baike/qipai/10218.html">用扑克玩牌九基础入门讲解</a></li>
+<li><a target="_blank" href="/baike/qipai/10146.html">斗地主游戏当农民战胜地主的技巧</a></li>
+<li><a target="_blank" href="/baike/qipai/10478.html">扑克棋牌游戏三打一高超技巧揭秘</a></li>
+<li><a target="_blank" href="/baike/qipai/10579.html">棋牌游戏斗地主高深算牌术</a></li>
+<li><a target="_blank" href="/baike/qipai/10225.html">网络棋牌游戏成新宠 揭秘高收入秘密</a></li>
+<li><a target="_blank" href="/baike/qipai/10345.html">扑克牌玩法与技巧的牌技自我提升</a></li>
+<li><a target="_blank" href="/baike/qipai/10562.html">在线扑克牌游戏玩法的四大“读”技</a></li>
+
+			</ul>
+		</div>
+		<div class="special">
+			<div class="special-list special-none">
+			<h2>最新专题</h2>
+			<img src="/img/7080.jpg" />
+			<ul>
+				<li><a target="_blank" href="/shishicai/11xuan5/10624.html">11选5玩法介绍之11选5四大杀号技巧</a></li>
+<li><a target="_blank" href="/baike/dezhoupuke/10621.html">德州扑克牌局优势分析德州扑克赢钱技巧</a></li>
+<li><a target="_blank" href="/baike/niuniu/10615.html">牛牛游戏如何做庄在网上牛牛赢钱</a></li>
+<li><a target="_blank" href="/study/10606.html">怎样打赢老虎机？玩老虎机赢钱技巧经验分享</a></li>
+
+			</ul>
+			</div>
+			<div class="special-list">
+			<h2>最新专题02</h2>
+			<img src="/img/708002.jpg" />
+			<ul>
+				<li><a target="_blank" href="/baike/mahonggang/10600.html">马洪刚反赌揭秘为你讲述赌瘾是如何养成的</a></li>
+<li><a target="_blank" href="/baike/duchanggonglue/10599.html">澳门赌场玩百家乐技巧介绍之职业赌客技巧</a></li>
+<li><a target="_blank" href="/baike/qipai/10585.html">扑克牌魔术揭秘扑克控牌千术</a></li>
+<li><a target="_blank" href="/baike/zajinhua/10582.html">联网扎金花高手教你怎么扎金花才能赢</a></li>
+
+			</ul>
+			</div>
+			<div class="special-list">
+			<h2>随机专题</h2>
+			<img src="/img/708003.jpg" />
+			<ul>
+				<li><a target="_blank" href="/b/ylc818.html">太阳城代理ylc818_太阳城网站ylc818_太阳城管理ylc818</a></li>
+<li><a target="_blank" href="/b/rk666.html">皇冠现金开户rk666   皇冠正rk666网   皇冠rk666.com</a></li>
+<li><a target="_blank" href="/b/bet8777.html">娱乐城bet8777_博彩bet8777_真钱bet8777</a></li>
+<li><a target="_blank" href="/b/cdxly.html">88娱乐城tlyd_8娱乐城cdxly_8娱乐城88bjl</a></li>
+
+			</ul>
+			</div>
+			<div class="special-list">
+			<h2>随机专题02</h2>
+			<img src="/img/708004.jpg" />
+			<ul>
+				<li><a target="_blank" href="/b/zibo.html">zibo太阳城娱乐城_椒江太阳城娱乐城_澳门太阳城娱乐城</a></li>
+<li><a target="_blank" href="/b/100jz.html">e世博100jz_e世博_e世博官方网站</a></li>
+<li><a target="_blank" href="/b/bct.html">皇冠比分网bct_777皇冠网bct_皇冠足球比分bct</a></li>
+<li><a target="_blank" href="/b/hx876.html">太阳城娱乐城hx876_椒江太阳城娱乐城_台州太阳城娱乐城</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div><!-- /main -->
+<!-- footer -->
+<div id="footer">
+	<span><a href="#">关于我们</a> | <a href="/tel.txt">网站合作</a> | <a href="#">博彩文化</a> | <a href="#">版权声明</a> | <a href="/data/sitemap.html">网站地图</a> | <a href="/tags.html">TAG标签</a></span>
+	CopyRight &copy; 2011 <a href="http://www.bozhidao.com/">www.bozhidao.com</a> All Rights Reserved. <a href="http://www.bozhidao.com/">博之道</a> 版权所有
+</div><!-- /footer -->
+<div class="footer-bg"></div>
+
+
+<!-- partner -->
+<span class="all-partner">
+	<div id="all_adtop"><script src="/info/6.js" type="text/javascript"></script></div>
+	<div id="all_adright"><script src="/info/7.js" type="text/javascript"></script></div>
+	<span id="all_read"><script src="/plus/count.php?view=yes&aid=10135&mid=12" type="text/javascript"></script></span>
+	<script type="text/javascript" src="/img/article-partner.js"></script>
+	<script type="text/javascript" src="/img/tongji.js"></script>
+</span>
+<script type="text/javascript" src="/img/article.js"></script>
+<!-- /partner -->
+</body>
+</html>

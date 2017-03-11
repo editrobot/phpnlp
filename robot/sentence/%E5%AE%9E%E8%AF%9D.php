@@ -1,0 +1,1 @@
+<?php /*:%E5%AE%9E%E8%AF%9D><%E4%BE%BF%E5%AE%9E%E8%AF%9D%E4%BA%A4%E5%BE%85><%E4%BE%BF><1><*/ ?>

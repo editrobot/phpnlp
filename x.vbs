@@ -1,0 +1,1 @@
+createobject("sapi.spvoice").speak("Ö´ÐÐÍê±Ï")

@@ -1,0 +1,1 @@
+<?php /*:%E7%9C%B8><%E5%9B%9E%E7%9C%B8><Res:256:Tool:0:Decorate:0><%E7%9C%B8%E5%AD%90><Res:1024:Tool:0:Decorate:0><2><*/ ?>

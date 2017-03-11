@@ -1,0 +1,1 @@
+<?php require("include/file_list_in_folder.php");require("include/cut_symbol_head_end.php");require("include/read_all_file.php");require("include/_oop_html_Filter.php");require("include/_oop_Element_attribute.php");require("include/cut_word.php");require("include/catalogPinyin.php");require("include/Tag_Or_No.php");require("include/sound.php"); ?>

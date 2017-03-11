@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>专题_博之道</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+<body class="articlelist">
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
+     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.bozhidao.com');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://www.bozhidao.com','博之道')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center">
+      <div class="title">
+        <h1><a href="http://www.bozhidao.com"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="博之道"/></a> </h1>
+      </div>
+      <div class="banner"></div>
+      <div class="banner2"></div>
+       
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w963">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主页</span></a></li>
+      	
+      	<li><a href='/news/' ><span>博彩资讯</span></a></li>
+      	
+      	<li><a href='/method/' ><span>博彩技巧</span></a></li>
+      	
+      	<li><a href='/translate/' ><span>博彩译文</span></a></li>
+      	
+      	<li><a href='/study/' ><span>博彩心得</span></a></li>
+      	
+      	<li><a href='/football/' ><span>足彩资讯</span></a></li>
+      	
+      	<li><a href='/company/' ><span>博彩公司</span></a></li>
+      	
+      	<li><a href='/why/' ><span>博彩问答</span></a></li>
+      	
+      	<li><a href='/culture/'  rel='dropmenu128'><span>博彩文化</span></a></li>
+      	
+      	<li><a href='/baike/'  rel='dropmenu133'><span>博彩百科</span></a></li>
+      	
+      	<li><a href='/duqian/'  rel='dropmenu158'><span>网络赌钱网站</span></a></li>
+      	
+    	</ul>
+    </div>	
+    <div class="search">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags">
+          <h4>热门标签:</h4>
+          <ul>
+          
+            <li><a href='/tags.php?/%CD%B6%D7%A2/'>投注</a></li>
+          
+            <li><a href='/tags.php?/%B6%C4%B3%A1/'>赌场</a></li>
+          
+            <li><a href='/tags.php?/%CF%E0%B5%B1/'>相当</a></li>
+          
+            <li><a href='/tags.php?/%B1%D8%D3%CE/'>必游</a></li>
+          
+            <li><a href='/tags.php?/%CF%D6%D3%D0/'>现有</a></li>
+          
+            <li><a href='/tags.php?/%C4%E3%D6%AA/'>你知</a></li>
+          
+            <li><a href='/tags.php?/%B2%BB%C1%CB%BD%E2/'>不了解</a></li>
+          
+            <li><a href='/tags.php?/%B4%F2%CF%EC/'>打响</a></li>
+          
+            <li><a href='/tags.php?/%CD%EA%C8%AB/'>完全</a></li>
+          
+            <li><a href='/tags.php?/%C4%E3%D2%AA/'>你要</a></li>
+          
+          </ul>
+        </div>
+    </div><!-- //search -->
+		</div>
+	</div>
+</div><!-- //header -->
+
+<!-- /header -->
+
+<div class="w960 center clear mt1">
+	<div class="pleft">
+		<div class="place">
+			<strong>当前位置:</strong> 专题列表
+		</div><!-- /place -->
+		<div class="listbox">
+			<ul class="e2">
+<li>
+      				<a href='/special/dzpk.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/dzpk.html" class="title">德州扑克</a>
+					<span class="info">
+						<small>日期：</small>2012-09-05 17:25:13
+						<small>点击：</small>152
+					</span>
+					<p class="intro">
+						德州扑克专题从德州扑克规则开始教会新手玩家德州扑克怎么玩，分享最详细、最实用的在线现金德州扑克技巧玩法。最精彩的德州扑克资讯尽在博之道德州扑克专题。...
+					</p>
+				</li><li>
+      				<a href='/special/ddzzmw.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/ddzzmw.html" class="title">斗地主怎么玩</a>
+					<span class="info">
+						<small>日期：</small>2012-09-04 17:07:52
+						<small>点击：</small>90
+					</span>
+					<p class="intro">
+						斗地主怎么玩专题向玩家们详解不一样的网上现金斗地主规则，分享最新最好的在线斗地主技巧，让所有的玩家都能在网上斗地主游戏中赢钱。最丰富的内容尽在博之道斗地主怎么玩游戏专题。...
+					</p>
+				</li><li>
+      				<a href='/special/lhjzmw.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/lhjzmw.html" class="title">老虎机怎么玩</a>
+					<span class="info">
+						<small>日期：</small>2012-08-31 18:41:17
+						<small>点击：</small>116
+					</span>
+					<p class="intro">
+						老虎机怎么玩专提供最新最专业的老虎机破解技术,分析老虎机干扰器、测试和机房现场运用,推荐具有“易操作、精确度高、实用可靠”等优点,无论外观、质量、实用性能都完美的老虎机破解器。...
+					</p>
+				</li><li>
+      				<a href='/special/zjh.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/zjh.html" class="title">扎金花</a>
+					<span class="info">
+						<small>日期：</small>2012-08-30 18:26:55
+						<small>点击：</small>114
+					</span>
+					<p class="intro">
+						扎金花游戏专题，是为您量身打造玩转线上扎金花技巧的平台，同时揭秘真人扎金花千术，告诉你老千玩扎金花现金游戏怎样出千，解读扎金花作弊技巧，让你在玩扎金花游戏的时候不会受骗。...
+					</p>
+				</li><li>
+      				<a href='/special/wsbjl.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/wsbjl.html" class="title">网上百家乐游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-28 17:52:28
+						<small>点击：</small>74
+					</span>
+					<p class="intro">
+						网上百家乐游戏专题推荐网上百家乐赌场玩法攻略，让大家知道可以赢钱的网上百家乐投注技巧、如何在网上进行百家乐投注，全方位解读网上百家乐必胜的方法。网上百家乐游戏专题让大家在网上百家乐赌场赚钱！...
+					</p>
+				</li><li>
+      				<a href='/special/wszq.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/wszq.html" class="title">网上挣钱游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-25 17:58:38
+						<small>点击：</small>57
+					</span>
+					<p class="intro">
+						网上挣钱游戏向大家推荐网上挣钱的游戏老虎机金鲨银鲨，澳门在线轮盘游戏的玩法技巧，杭州麻将和众多的赌博游戏机的网上挣钱的方法，回答众多网友的关于网上赚钱是真的吗的问题。...
+					</p>
+				</li><li>
+      				<a href='/special/wldq.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/wldq.html" class="title">网络赌钱</a>
+					<span class="info">
+						<small>日期：</small>2012-08-23 17:55:50
+						<small>点击：</small>200
+					</span>
+					<p class="intro">
+						网络赌钱专题为大家介绍网络棋牌赌博广东麻将玩法技巧，网络赌博游戏赌术轮盘必胜法，网络赌博游戏摇骰子必胜技术，网络赌场游戏港式五张牌实战技巧，推荐网络赌钱游戏网上真钱港式五张玩法。...
+					</p>
+				</li><li>
+      				<a href='/special/swzq.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/swzq.html" class="title">上网挣钱</a>
+					<span class="info">
+						<small>日期：</small>2012-08-22 17:54:27
+						<small>点击：</small>78
+					</span>
+					<p class="intro">
+						上网挣钱专题教会大家上网怎么赚钱的方法，让大家学会利用上网怎么赚钱的途径，分析上网也能赚钱的原因，指导大家在家上网玩游戏赚钱，推荐上网挣钱的玩法技巧。...
+					</p>
+				</li><li>
+      				<a href='/special/wqdqp.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/wqdqp.html" class="title">玩钱的棋牌游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-21 18:02:35
+						<small>点击：</small>60
+					</span>
+					<p class="intro">
+						玩钱的棋牌游戏专题教会棋牌游戏爱好者们玩游戏如何赚钱的方法，让棋牌游戏爱好者们通过玩真钱的棋牌游戏赚钱，为真钱斗地主游戏玩家深入分析玩真钱的斗地主技巧。...
+					</p>
+				</li><li>
+      				<a href='/special/sanzh.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/sanzh.html" class="title">三张</a>
+					<span class="info">
+						<small>日期：</small>2012-08-20 18:17:58
+						<small>点击：</small>85
+					</span>
+					<p class="intro">
+						
+
+三张专题是专门为三张牌比大小游戏爱好者量身定做的，提供三张牌梭哈游戏玩法技巧，推荐三张牌游戏在线玩游戏平台，让大家都知道网络三张游戏玩法，通过在线三张游戏赚钱。
+...
+					</p>
+				</li><li>
+      				<a href='/special/qpyl.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/qpyl.html" class="title">棋牌娱乐游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-17 17:47:03
+						<small>点击：</small>168
+					</span>
+					<p class="intro">
+						
+棋牌娱乐游戏专题提供在线棋牌游戏都有什么玩法等信息，分享在线棋牌游戏赌钱怎么赢，解读棋牌游戏赢现金的方法技巧，棋牌娱乐游戏向玩家推荐丰富多彩的棋牌游戏赌钱玩法。
+...
+					</p>
+				</li><li>
+      				<a href='/special/mfzq.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/mfzq.html" class="title">免费赚钱</a>
+					<span class="info">
+						<small>日期：</small>2012-08-16 17:49:37
+						<small>点击：</small>73
+					</span>
+					<p class="intro">
+						免费赚钱专题向真钱娱乐玩家们介绍免费游戏平台玩法攻略、免费网上赌场试玩技巧、推荐最好的免费梭哈游戏大厅，让大家知道怎么样在线免费赚钱、如何在线免费赚钱。...
+					</p>
+				</li><li>
+      				<a href='/special/mfwz.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/mfwz.html" class="title">免费网赚</a>
+					<span class="info">
+						<small>日期：</small>2012-08-15 17:28:21
+						<small>点击：</small>121
+					</span>
+					<p class="intro">
+						免费网赚向您推荐免费牌类游戏，介绍免费牌九游戏玩法技巧、免费的棋牌游戏怎么玩，免费网赚是专门向免费牌类游戏、免费牌九游戏、免费的棋牌游戏爱好者们提供交流的平台。...
+					</p>
+				</li><li>
+      				<a href='/special/dhxj.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/dhxj.html" class="title">可以兑换现金的游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-14 18:10:57
+						<small>点击：</small>200
+					</span>
+					<p class="intro">
+						可以兑换现金的游戏有哪些？哪些是可以兑现的棋牌游戏？可以兑换现金的棋牌游戏怎么玩，怎么玩网络可以兑换现金的棋牌游戏？博之道可以兑换现金的游戏专题为大家倾情奉献。...
+					</p>
+				</li><li>
+      				<a href='/special/kywqdyx.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/kywqdyx.html" class="title">可以玩钱的游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-10 18:01:32
+						<small>点击：</small>124
+					</span>
+					<p class="intro">
+						可以玩钱的游戏哪里有，怎么玩可以提现的游戏，可以提现的棋牌游戏在线玩法技巧，怎么玩可以换现金的游戏。可以玩钱的游戏在博之道专题，我们向您推荐最好的可以玩钱的游戏。
+...
+					</p>
+				</li><li>
+      				<a href='/special/zqwlyx.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/zqwlyx.html" class="title">可以赚钱的网络游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-08-08 18:07:50
+						<small>点击：</small>145
+					</span>
+					<p class="intro">
+						可以赚钱的网络游戏向您推荐最好玩的又可以赚人民币的游戏，分享可以赚钱的斗地主赢钱心得，是一个为真钱娱乐爱好者专门定制的可以赚钱的网站平台，可以赚钱的网络游戏平台。
+
+...
+					</p>
+				</li><li>
+      				<a href='/special/ddzh.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/ddzh.html" class="title">斗地主真钱</a>
+					<span class="info">
+						<small>日期：</small>2012-08-08 14:39:59
+						<small>点击：</small>176
+					</span>
+					<p class="intro">
+						斗地主真钱怎么玩，斗地主真钱游戏玩法技巧，斗地主网络游戏心得策略，网上斗地主赌博游戏平台，斗地主真钱主题栏目和斗地主真钱游戏玩家们一起探讨能赢钱的斗地主真钱游戏。...
+					</p>
+				</li><li>
+      				<a href='/special/aomd.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/aomd.html" class="title">澳门赌什么</a>
+					<span class="info">
+						<small>日期：</small>2012-08-02 17:24:23
+						<small>点击：</small>165
+					</span>
+					<p class="intro">
+						澳门赌什么？澳门赌大小，澳门真钱游戏，澳门棋牌真钱游戏都需要注意哪些？澳门赌什么专题为真钱游戏玩家推荐澳门赌大小技巧、介绍澳门真钱游戏玩法，讲解澳门棋牌真钱游戏的平台。...
+					</p>
+				</li><li>
+      				<a href='/special/2012qp.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/2012qp.html" class="title">2012棋牌</a>
+					<span class="info">
+						<small>日期：</small>2012-08-01 17:50:43
+						<small>点击：</small>67
+					</span>
+					<p class="intro">
+						2012棋牌向您推荐2012什么最赚钱,2012玩什么网游赚钱,2012现金棋牌游戏。2012棋牌，是一个为棋牌爱好者量身定做的专业网络棋牌游戏平台，提供斗地主、麻将、血战麻将等比赛。...
+					</p>
+				</li><li>
+      				<a href='/special/zhqyx.html' class='preview'><img src='/images/defaultpic.gif'/></a>
+					<a href="/special/zhqyx.html" class="title">能挣钱的游戏</a>
+					<span class="info">
+						<small>日期：</small>2012-07-31 18:08:40
+						<small>点击：</small>136
+					</span>
+					<p class="intro">
+						能挣钱的游戏在网络上一直很受欢迎。能挣钱的网游、能挣钱的棋牌游戏、能提现的棋牌游戏如今已经是网络上的一个人们话题，博之道为大家搜罗能挣钱的游戏各类信息。...
+					</p>
+				</li>
+			</ul>
+		</div><!-- /listbox -->
+		<div class="dede_pages">
+			<ul class="pagelist">
+             <li><a>首页</a></li>
+<li class="thisclass"><a>1</a></li>
+<li><a href='spec_2.html'>2</a></li>
+<li><a href='spec_2.html'>下一页</a></li>
+<li><a href='spec_2.html'>末页</a></li>
+
+			</ul>
+		</div><!-- /pages -->
+	</div><!-- /pleft -->
+	
+	<div class="pright">
+		<div class="commend">
+			<dl class="tbox">
+				<dt><strong>推荐专题</strong></dt>
+				<dd>
+					<ul class="d4">
+           
+					</ul>
+				</dd>
+			</dl>
+		</div><!-- /commend -->
+		<div id="listRtPicAD" style="margin:10px auto"></div>
+		<div class="hot mt1">
+			<dl class="tbox">
+				<dt><strong>热点内容</strong></dt>
+				<dd>
+					<ul class="c1 ico2">
+                    <li><a href="/translate/200.html">高手必备的真人斗地主技巧</a></li>
+<li><a href="/baike/baijiale/3432.html">资深玩家谈百家乐心得</a></li>
+<li><a href="/baike/laohuji/4567.html">水果老虎机在线玩的压分技巧分享</a></li>
+<li><a href="/why/3428.html">在真钱扎金花平台玩扎金花怎样出老千？</a></li>
+<li><a href="/baike/baijiale/3474.html">浅谈百家乐玩法心得</a></li>
+<li><a href="/baike/baijiale/4034.html">百家乐现金棋牌游戏的赢钱秘笈：二赢思维与二赢战法</a></li>
+<li><a href="/b/jmm.html">蓝盾在线jmm6179好_蓝盾在线娱乐jmm6399好_蓝盾在线官网jmm6179</a></li>
+<li><a href="/method/2644.html">解决扎金花紧张过度的办法</a></li>
+<li><a href="/baike/peilv/3095.html">新手怎么看足球盘口技巧</a></li>
+<li><a href="/baike/baijiale/3339.html">百家乐最佳投注手法教你玩百家乐怎么赢钱</a></li>
+
+					</ul>
+				</dd>
+			</dl>
+		</div>
+        <div id="listRtPicAD2" style="margin:10px auto"></div>
+
+	</div><!-- /pright -->
+</div>
+
+<div id="innerfooterAD" style="margin:10px auto; width:726px"></div>
+<!-- /footer -->
+
+</body>
+</html>
